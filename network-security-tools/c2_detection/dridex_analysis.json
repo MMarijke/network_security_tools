@@ -1,0 +1,280 @@
+{
+  "analysis_timestamp": "2026-01-04T08:24:35.623312",
+  "pcap_summary": {
+    "total_packets": 1465,
+    "start_time": "2020-04-01T23:02:19.297730",
+    "end_time": "2020-04-01T23:16:11.724147",
+    "duration_seconds": 832.43,
+    "average_packet_size": 796.75,
+    "max_packet_size": 1514,
+    "min_packet_size": 54,
+    "protocol_distribution": {
+      "UDP": 59,
+      "TCP": 661
+    },
+    "unique_source_ips": 7,
+    "unique_destination_ips": 8,
+    "top_talkers": {
+      "94.103.84.245": 326,
+      "10.4.1.101": 296,
+      "13.107.3.128": 30,
+      "162.255.119.253": 25,
+      "40.122.160.14": 24
+    },
+    "top_destinations": {
+      "10.4.1.101": 424,
+      "94.103.84.245": 155,
+      "10.4.1.255": 39,
+      "40.122.160.14": 33,
+      "162.255.119.253": 30
+    }
+  },
+  "https_analysis": {
+    "total_https_flows": 5,
+    "suspicious_flows": [
+      {
+        "flow": "10.4.1.101->13.107.3.128",
+        "total_bytes": 35066,
+        "packet_count": 49,
+        "duration": 109.76571011543274,
+        "out_bytes": 1964,
+        "in_bytes": 33102,
+        "asymmetry_ratio": 0.059331762431273034,
+        "large_packets": 20,
+        "suspicion_score": 5
+      },
+      {
+        "flow": "10.4.1.101->40.122.160.14",
+        "total_bytes": 17255,
+        "packet_count": 57,
+        "duration": 101.86128091812134,
+        "out_bytes": 9872,
+        "in_bytes": 7383,
+        "asymmetry_ratio": 1.3371258296085602,
+        "large_packets": 5,
+        "suspicion_score": 5
+      },
+      {
+        "flow": "10.4.1.101->94.103.84.245",
+        "total_bytes": 493814,
+        "packet_count": 481,
+        "duration": 1.9102041721343994,
+        "out_bytes": 8858,
+        "in_bytes": 484956,
+        "asymmetry_ratio": 0.018265574608830493,
+        "large_packets": 319,
+        "suspicion_score": 4
+      },
+      {
+        "flow": "10.4.1.101->20.191.48.196",
+        "total_bytes": 4246,
+        "packet_count": 19,
+        "duration": 60.640244007110596,
+        "out_bytes": 1133,
+        "in_bytes": 3113,
+        "asymmetry_ratio": 0.36395759717314485,
+        "large_packets": 1,
+        "suspicion_score": 3
+      },
+      {
+        "flow": "10.4.1.101->162.255.119.253",
+        "total_bytes": 14246,
+        "packet_count": 55,
+        "duration": 266.6272931098938,
+        "out_bytes": 4717,
+        "in_bytes": 9529,
+        "asymmetry_ratio": 0.49501521670689475,
+        "large_packets": 3,
+        "suspicion_score": 5
+      }
+    ],
+    "high_volume_flows": [
+      {
+        "flow": "10.4.1.101->94.103.84.245",
+        "total_bytes": 493814,
+        "packet_count": 481,
+        "duration": 1.9102041721343994,
+        "out_bytes": 8858,
+        "in_bytes": 484956,
+        "asymmetry_ratio": 0.018265574608830493,
+        "large_packets": 319,
+        "suspicion_score": 4
+      }
+    ],
+    "persistent_connections": [
+      {
+        "flow": "10.4.1.101->13.107.3.128",
+        "total_bytes": 35066,
+        "packet_count": 49,
+        "duration": 109.76571011543274,
+        "out_bytes": 1964,
+        "in_bytes": 33102,
+        "asymmetry_ratio": 0.059331762431273034,
+        "large_packets": 20,
+        "suspicion_score": 5
+      },
+      {
+        "flow": "10.4.1.101->40.122.160.14",
+        "total_bytes": 17255,
+        "packet_count": 57,
+        "duration": 101.86128091812134,
+        "out_bytes": 9872,
+        "in_bytes": 7383,
+        "asymmetry_ratio": 1.3371258296085602,
+        "large_packets": 5,
+        "suspicion_score": 5
+      },
+      {
+        "flow": "10.4.1.101->20.191.48.196",
+        "total_bytes": 4246,
+        "packet_count": 19,
+        "duration": 60.640244007110596,
+        "out_bytes": 1133,
+        "in_bytes": 3113,
+        "asymmetry_ratio": 0.36395759717314485,
+        "large_packets": 1,
+        "suspicion_score": 3
+      },
+      {
+        "flow": "10.4.1.101->162.255.119.253",
+        "total_bytes": 14246,
+        "packet_count": 55,
+        "duration": 266.6272931098938,
+        "out_bytes": 4717,
+        "in_bytes": 9529,
+        "asymmetry_ratio": 0.49501521670689475,
+        "large_packets": 3,
+        "suspicion_score": 5
+      }
+    ]
+  },
+  "dns_analysis": {
+    "total_queries": 10,
+    "unique_domains": 8,
+    "suspicious_domains": [
+      "foodsgoodforliver.com",
+      "14.160.122.40.in-addr.arpa",
+      "2.1.168.192.in-addr.arpa",
+      "105711.com",
+      "settings-win-ppe.data.microsoft.com",
+      "128.3.107.13.in-addr.arpa"
+    ],
+    "domain_frequency": {
+      "self.events.data.microsoft.com": 2,
+      "2.1.168.192.in-addr.arpa": 2,
+      "config.edge.skype.com": 1,
+      "foodsgoodforliver.com": 1,
+      "128.3.107.13.in-addr.arpa": 1,
+      "14.160.122.40.in-addr.arpa": 1,
+      "settings-win-ppe.data.microsoft.com": 1,
+      "105711.com": 1
+    },
+    "query_timeline": [
+      {
+        "timestamp": 1585774956.291384,
+        "domain": "config.edge.skype.com",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774967.229514,
+        "domain": "self.events.data.microsoft.com",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774968.696677,
+        "domain": "foodsgoodforliver.com",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774978.19947,
+        "domain": "2.1.168.192.in-addr.arpa",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774978.201802,
+        "domain": "2.1.168.192.in-addr.arpa",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774978.203981,
+        "domain": "128.3.107.13.in-addr.arpa",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585774978.211755,
+        "domain": "14.160.122.40.in-addr.arpa",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585775058.970677,
+        "domain": "self.events.data.microsoft.com",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585775212.586833,
+        "domain": "settings-win-ppe.data.microsoft.com",
+        "src_ip": "10.4.1.101"
+      },
+      {
+        "timestamp": 1585775505.06053,
+        "domain": "105711.com",
+        "src_ip": "10.4.1.101"
+      }
+    ]
+  },
+  "timeline_analysis": {
+    "total_time_windows": 18,
+    "average_packets_per_window": 40,
+    "burst_periods": [
+      {
+        "time_offset": 30,
+        "packet_count": 489,
+        "total_bytes": 493043
+      }
+    ],
+    "peak_activity": 489
+  },
+  "dridex_indicators": [
+    {
+      "type": "High-Volume HTTPS Traffic",
+      "description": "Detected 5 suspicious HTTPS flows",
+      "severity": "HIGH",
+      "evidence": [
+        "10.4.1.101->13.107.3.128",
+        "10.4.1.101->40.122.160.14",
+        "10.4.1.101->94.103.84.245"
+      ]
+    },
+    {
+      "type": "Persistent Connections",
+      "description": "Detected 4 long-duration connections",
+      "severity": "MEDIUM",
+      "evidence": [
+        "10.4.1.101->13.107.3.128",
+        "10.4.1.101->40.122.160.14",
+        "10.4.1.101->20.191.48.196"
+      ]
+    },
+    {
+      "type": "Suspicious Domain Queries",
+      "description": "Detected queries to 6 suspicious domains",
+      "severity": "MEDIUM",
+      "evidence": [
+        "foodsgoodforliver.com",
+        "14.160.122.40.in-addr.arpa",
+        "2.1.168.192.in-addr.arpa",
+        "105711.com",
+        "settings-win-ppe.data.microsoft.com"
+      ]
+    },
+    {
+      "type": "Burst Network Activity",
+      "description": "Detected 1 periods of burst activity",
+      "severity": "MEDIUM",
+      "evidence": [
+        "Burst at 30s: 489 packets"
+      ]
+    }
+  ],
+  "severity_assessment": "HIGH"
+}

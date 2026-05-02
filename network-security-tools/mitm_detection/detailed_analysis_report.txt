@@ -1,0 +1,38 @@
+COMPREHENSIVE NETWORK SECURITY ANALYSIS REPORT
+======================================================================
+Generated: 2026-01-02 20:39:48.871873
+PCAP File Analysis Period: 2013-01-26 14:04:16.033358 to 2013-01-26 14:05:11.791776
+Total Packets: 124
+Analysis Duration: 55.76 seconds
+
+NETWORK STATISTICS:
+Average Packet Size: 561.08 bytes
+Packet Rate: 2.22 packets/second
+Unique IP Addresses: 2
+Unique MAC Addresses: 2
+
+IP ADDRESSES DETECTED:
+  - 10.99.99.103
+  - 207.97.227.239
+
+SUSPICIOUS ACTIVITIES DETECTED:
+- High Volume HTTPS Traffic: High volume of HTTPS packets (52) from 10.99.99.103
+  Source IP: 10.99.99.103
+  Severity: HIGH
+
+- High Volume HTTPS Traffic: High volume of HTTPS packets (72) from 207.97.227.239
+  Source IP: 207.97.227.239
+  Severity: HIGH
+
+- Multiple SSL Handshakes: Multiple SSL handshake attempts (6) from 10.99.99.103
+  Source IP: 10.99.99.103
+  Severity: MEDIUM
+
+- Multiple SSL Handshakes: Multiple SSL handshake attempts (7) from 207.97.227.239
+  Source IP: 207.97.227.239
+  Severity: MEDIUM
+
+- Data Exfiltration: Large outbound transfer: 5,334 bytes
+  Source IP: 10.99.99.103
+  Severity: HIGH
+
